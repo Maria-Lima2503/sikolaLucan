@@ -1,0 +1,585 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "slug": "/",
+      "icon": "school"
+    },
+    {
+
+      "url": "list_student",
+      "name": "Manage Student",
+      "i18n": "Manage Student",
+      "slug": "list_student",
+      "icon": "account_circle"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Pedagogical Area",
+      "i18n": "Pedagogical Area",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "basic-ui",
+      "icon": "photo_filter",
+      "submenu": [
+          {
+          "url":"javascript:void(0)",
+          "name":"Academic Year",
+          "i18n":"Academic Year",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon":"today",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url": "form-year",
+              "name": "New & List",
+              "i18n": "New & List",
+              "slug": "new-list"
+            },
+            {
+              "url": "edit-year",
+              "name": "Edit Year",
+              "i18n": "Edit Year",
+              "slug": "edit-year"
+            },
+            {
+              "url": "calendar",
+              "name": "Calendar",
+              "i18n": "Calendar",
+              "slug": "calendar"
+            }
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Manage Course",
+          "i18n": "Manage Course",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "folder_shared",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url": "new_course",
+              "name": "New Course",
+              "i18n": "New Course",
+              "slug": "new_course"
+            },
+            {
+              "url": "list_course",
+              "name": "List Course",
+              "i18n": "List Course",
+              "slug": "list_course"
+
+            },
+            {
+              "url":"flat-course ",
+              "name":"Flat Course",
+              "i18n":"Flat Course",
+              "slug":"flat-course "
+
+            }
+          ]
+        },
+                {
+          "url": "javascript:void(0)",
+          "name": "Student Datas",
+          "i18n": "Student Datas",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "perm_identity",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url": "new_simple",
+              "name": "Registration Simple",
+              "i18n": "Registration Simple",
+              "slug": "new_simple"
+            },
+
+            {
+              "url": "edit_student",
+              "name": "Edit Student",
+              "i18n": "Edit Student",
+              "slug": "edit_student"
+            },
+            {
+              "url": "list_registration",
+              "name": "Registration List",
+              "i18n": "Registration List",
+              "slug": "list_registration"
+            },
+            {
+              "url": "new_complete",
+              "name": "Registration Complete",
+              "i18n": "Registration Complete",
+              "slug": "new_complete"
+            }
+          ]
+        },
+
+        {
+          "url": "javascript:void(0)",
+          "name":"Manage to Gang",
+          "i18n":"Manage to Gang",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "folder_shared",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url":"new_gang",
+              "name":"New Gang",
+              "i18n": "New Gang",
+              "slug":"new_gang"
+
+            },
+            {
+              "url":"list_gang",
+              "name":"List Gang",
+              "i18n":"List Gang",
+              "slug":"list_gang"
+            }
+
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Manage Teachers",
+          "i18n": "Manage Teachers",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "person_outline",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url":"new_teachers",
+              "name":"New Teachers",
+              "i18n":"New Teachers",
+              "slug": "new_teachers"
+
+            },
+            {
+              "url":"list_teachers",
+              "name": "List Teachers",
+              "i18n": "List Teachers",
+              "slug": "list_teachers"
+
+            }
+          ]
+
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Manage Discipline",
+          "i18n": "Manage Discipline ",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "assignment",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url":"new_time",
+              "name": "New Time",
+              "i18n": "New Time",
+              "slug": "new_time"
+
+            },
+            {
+              "url":"list_time ",
+              "name": "List Time",
+              "i18n": "List Time",
+              "slug": "list_time"
+
+            },
+            {
+              "url":"new_list_discipline",
+              "name": "New List Discipline",
+              "i18n": "New List Discipline",
+              "slug": "new_list_discipline"
+
+            }
+          ]
+        },
+
+        {
+          "url": "javascript:void(0)",
+          "name":"Class & Presence",
+          "i18n":"Class & Presence",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "grid_on",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url": "presence_book",
+              "name": "Presence Book",
+              "i18n": "Presence Book",
+              "slug": "presence_book"
+            },
+            {
+              "url":"new_class",
+              "name":"New Class",
+              "i18n":"New Class",
+              "slug":"new_class"
+
+            }
+          ]
+        },
+
+        {
+          "url": "javascript:void(0)",
+          "name":"Request",
+          "i18n":"Request",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "photo_filter",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url":"request_movi",
+              "name":"Request Movi",
+              "i18n":"Request Movi",
+              "slug":"request_movi"
+
+            },
+            {
+              "url":"request_document",
+              "name":"Request Document",
+              "i18n":"Request Document",
+              "slug":"request_document"
+            }
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Evaluation",
+          "i18n": "Evaluation",
+          "class": "collapsible-header waves-effect waves-cyan color-menu",
+          "icon": "launch",
+          "tagcustom": "badge pill orange float-right mr-10",
+          "submenu": [
+            {
+              "url":"map-exploitation",
+              "name": "Map Exploitation",
+              "i18n": "Map Exploitation",
+              "slug": "map-exploitation"
+
+            },
+            {
+              "url":"launch",
+              "name":"Launch Evaluation",
+              "i18n":"Launch Evaluation",
+              "slug": "launch"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Billing",
+      "i18n": "Billing",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "basic-ui",
+      "icon": "attach_money",
+      "submenu": [
+        {
+            "url": "pay_station",
+            "name":"Pay & Station",
+            "i18n":"Pay & Station",
+            "class":"waves-effect waves-cyan color-menu",
+            "slug":"pay_station"
+        },
+        {
+            "url":"list_ps",
+            "name":"Products & Services",
+            "i18n":"Products & Services",
+            "class":"waves-effect waves-cyan color-menu",
+            "slug":"list_ps"
+        },
+        {
+            "url":"receipts_issued",
+            "name":"Receipts Issued",
+            "i18n":"Receipts Issued",
+            "class":"waves-effect waves-cyan color-menu",
+            "slug":"receipts_issued"
+        },
+        {
+            "url":"current_account",
+            "name":"Current of account",
+            "i18n":"Current of account",
+            "class":"waves-effect waves-cyan color-menu",
+            "slug":"current_account"
+        },
+        {
+            "url":"export_saft",
+            "name":"Export of SAF-T",
+            "i18n":"Export of SAF-T",
+            "class":"waves-effect waves-cyan color-menu",
+            "slug":"export_saft"
+        },
+        {
+            "url":"javascript:void(0)",
+            "name":"Query",
+            "i18n":"Query",
+            "class": "collapsible-header waves-effect waves-cyan color-menu",
+            "icon":"attach_money",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "submenu": [
+                {
+                    "url":"scholarship",
+                    "name":"Scholarship",
+                    "i18n":"Scholarship",
+                    "slug":"scholarship"
+                },
+                {
+                    "url":"debtors",
+                    "name":"List Debtors",
+                    "i18n":"List Debtors",
+                    "slug":"debtors"
+                },
+                {
+                    "url":"map_billing",
+                    "name":"Map Billing",
+                    "i18n":"Map Billing",
+                    "slug":"map_billing"
+                },
+                {
+                    "url":"default_map",
+                    "name":"Default Map",
+                    "i18n":"Default Map",
+                    "slug":"default_map"
+                }
+            ]
+        },
+        {
+            "url":"javascript:void(0)",
+            "name":"Table",
+            "i18n":"Table",
+            "class": "collapsible-header waves-effect waves-cyan color-menu",
+            "icon":"attach_money",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "submenu": [
+                {
+                    "url": "pay_forms",
+                    "name": "Pay of Forms",
+                    "i18n": "Pay of Forms",
+                    "slug": "pay_forms"
+                },
+                {
+                    "url": "fax",
+                    "name": "Fax",
+                    "i18n": "Fax",
+                    "slug": "fax"
+                },
+                {
+                    "url": "bank_account",
+                    "name": "Bank Account",
+                    "i18n": "Bank Account",
+                    "slug": "bank_account"
+                },
+                {
+                    "url": "category",
+                    "name": "Item Category",
+                    "i18n": "Item Category",
+                    "slug": "category"
+                },
+                {
+                    "url":"supplier",
+                    "name":"Supplier/Partners",
+                    "i18n":"Supplier/Partners",
+                    "slug":"supplier"
+                }
+            ]
+        }
+      ]
+    },
+    {
+        "name":"Modúlos Associodos",
+        "navheader":"Modúlos Associodos",
+        "class":"colr-menu",
+        "icon": "more_horiz"
+    },
+    {
+        "url": "javascript:void(0)",
+        "name": "Curricular Activity",
+        "i18n": "Curricular Activity",
+        "class": "collapsible-header waves-effect waves-cyan",
+        "slug": "basic-ui",
+        "icon": "queue_play_next",
+        "submenu": [
+
+            {
+              "url":"school_bus",
+              "name":"School Bus",
+              "i18n": "School Bus",
+              "class":"waves-effect waves-cyan color-menu",
+              "slug":"school_bus"
+            },
+            {
+              "url":"atl",
+              "name": "Activity Free Time",
+              "i18n": "Activity Free Time",
+              "class":"waves-effect waves-cyan color-menu",
+              "slug":"atl"
+            },
+            {
+                "url":"extras_activity",
+                "name": "Extras Activity",
+                "i18n": "Extras Activity",
+                "class":"waves-effect waves-cyan color-menu",
+                "slug":"extras_activity"
+            }
+
+        ]
+    },
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Query Table",
+      "i18n": "Query Table",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "basic-ui",
+      "icon": "format_align_justify",
+      "submenu": [
+        {
+          "url": "manege_stage",
+          "name": "Manege Stage",
+          "i18n": "Manege Stage",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "manege_stage"
+        },
+        {
+          "url": "person_charge",
+          "name": "Person Charge",
+          "i18n": "Person Charge",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "person_charge"
+        },
+        {
+          "url":"literary_qualification",
+          "name": "Literary Qualification",
+          "i18n": "Literary Qualification",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "literary_qualification"
+        },
+        {
+          "url":"professions",
+          "name": "Professions",
+          "i18n": "Professions",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "professions"
+        },
+        {
+          "url":"document_useful",
+          "name": "Document Useful",
+          "i18n": "Document Useful",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "document_useful"
+        },
+        {
+          "url":"country",
+          "name": "Country",
+          "i18n": "Country",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "country"
+        },
+
+        {
+          "url":"province",
+          "name":"Provinces",
+          "i18n":"Provinces",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug": "province"
+        },
+        {
+          "url":"county",
+          "name":"Cities",
+          "i18n":"Cities",
+          "class":"waves-effect waves-cyan color-menu",
+          "slug":"county"
+        }
+
+      ]
+    },
+
+    {
+    "url": "javascript:void(0)",
+    "name":"Treasury",
+    "i18n":"Treasury",
+    "class": "collapsible-header waves-effect waves-cyan ",
+    "slug": "basic-ui",
+    "icon": "import_export",
+    "submenu":[
+    ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "url": "javascript:void(0)",
+      "name": "Menu levels",
+      "i18n": "Menu levels",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "icon": "photo_filter",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "javascript:void(0)",
+          "name": "Second level",
+          "i18n": "Second level",
+          "slug": ""
+        },
+        {
+          "url": "javascript:void(0)",
+          "class": "collapsible-header waves-effect waves-cyan",
+          "name": "Second level child",
+          "i18n": "Second level child",
+          "slug": "",
+          "submenu": [
+            {
+              "url": "javascript:void(0)",
+              "name": "Third level",
+              "i18n": "Third level",
+              "slug": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://pixinvent.com/materialize-material-design-admin-template/documentation/index.html",
+      "name": "Documentation",
+      "i18n": "Documentation",
+      "class": "waves-effect waves-cyan",
+      "icon": "import_contacts",
+      "slug": "documentation",
+      "newTab": "_blank"
+    },
+    {
+      "url": "https://pixinvent.ticksy.com/",
+      "name": "Support",
+      "i18n": "Support",
+      "class": "waves-effect waves-cyan",
+      "icon": "help_outline",
+      "slug": "support",
+      "newTab": "_blank"
+    }
+  ]
+}

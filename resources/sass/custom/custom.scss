@@ -1,0 +1,82 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.Centralizar {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .paragrafo {
+    font-size: 13px;
+  }
+
+  .caption p {
+    font-size: 33px !important;
+  }
+
+  .tbLista {
+    border-collapse: revert !important;
+  }
+
+  .tbLista tr td,
+  .tbLista tr th {
+    height: 1.5rem !important;
+    padding: 0px 2px !important;
+    font-size: 12px !important;
+    text-align: right !important;
+  }
+
+  .tbLista input {
+    height: 2.5rem !important;
+    text-align: right;
+    border-bottom: transparent !important;
+  }
+
+  .sidenav li a.active {
+    background: #02a13f !important;
+  }
+
+  .sidenav li {
+    color: #ffffff !important;
+  }
+
+  .page-footer a {
+    color: #02a13f !important;
+  }
+
+  .a {
+    color: #02a13f !important;
+  }
+
+  .bordar-invisible {
+    border-bottom: transparent !important;
+  }
+
+  .fotoPasse {
+    height: 64px;
+    width: 64px;
+  }
+
+  .card .card-content p {
+    font-size: 20px !important;
+  }
+
+.mycon_red{
+    font-size: 20px;
+    color: #dd4b39 !important;
+}
+
+
+.btn-flat2
+{
+    color: #02a13f !important;
+    padding: 1px 2px !important;
+}
